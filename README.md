@@ -46,4 +46,4 @@ O Acesso a API utilizada para consumir os dados está disponível em [SwapiDev](
 
 ## Autor
 
-* **Victor Salvaya** - [Linkedin](https://www.linkedin.com/in/fsilvaco/victorsalvaya) 
+* **Victor Salvaya** - [Linkedin](https://www.linkedin.com/in/victorsalvaya) 
