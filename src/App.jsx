@@ -3,6 +3,7 @@ import './App.scss'
 
 import {
     BrowserRouter as Router,
+    HashRouter,
     Switch,
     Route,
     BrowserRouter,
@@ -15,14 +16,16 @@ import Erro from './pages/error/Error'
 
 export default function App(){
     return(
-        <Router>
-            <BrowserRouter>
-                <Switch>
-                    <Route path="/" component={Home} exact />
-                    <Route path="/planets" component={Planet} />
-                    <Route path="/error" component={Erro} />
-                </Switch>
-            </BrowserRouter>
-        </Router>
+        <HashRouter>
+            <Router>
+                <BrowserRouter basename={process.env.PUBLIC_URL}>
+                    <Switch>
+                        <Route path="/" component={Home} exact />
+                        <Route path="/planets" component={Planet} />
+                        <Route path="/error" component={Erro} />
+                    </Switch>
+                </BrowserRouter>
+            </Router>
+        </HashRouter>
     )
 }
