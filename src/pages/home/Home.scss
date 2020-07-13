@@ -19,11 +19,3 @@ $breakpoint-max: 425px;
     }
 }
 
-
-@media (min-width: $breakpoint-min) and (max-width: $breakpoint-max) {
-    .Home {
-        h1 {
-            font-size: 0.7rem;
-        }
-    }
-}
