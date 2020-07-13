@@ -1,3 +1,6 @@
+$breakpoint-min: 320px;
+$breakpoint-max: 425px;
+
 .Home {
     display: flex;
     flex-direction: column;
@@ -13,5 +16,14 @@
         font-size: 1.1rem;
         font-weight: bold;
         padding: 20px;
+    }
+}
+
+
+@media (min-width: $breakpoint-min) and (max-width: $breakpoint-max) {
+    .Home {
+        h1 {
+            font-size: 0.7rem;
+        }
     }
 }
