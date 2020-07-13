@@ -1,4 +1,4 @@
-# ReactStarwars desafio Front-end B2W Digital
+# React Star wars desafio Front-end B2W Digital
 
 Esse projeto faz uma brincadeira com amantes de Star wars. Esse App consiste em um sorteio de um planeta da franquia, exibindo assim como seria o número da sua população, o seu diâmetro dentre outras informações.
 
@@ -9,8 +9,8 @@ As informações sobre os planetas pode ser encontra na [API](https://swapi.dev/
 ## Começando
 
 Para iniciar o projeto, é necessário que você tenha os seguintes progamas: 
-[Node.Js e o Npm](https://nodejs.org/en/download/)
-[Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* [Node.Js e o Npm](https://nodejs.org/en/download/)
+* [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ## Instalação
 
@@ -46,4 +46,4 @@ O Acesso a API utilizada para consumir os dados está disponível em [SwapiDev](
 
 ## Autor
 
-* **Victor Salvaya** - [Linkedin]((https://www.linkedin.com/in/fsilvaco/victorsalvaya) 
+* **Victor Salvaya** - [Linkedin](https://www.linkedin.com/in/victorsalvaya) 
